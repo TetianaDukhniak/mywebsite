@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цирковой набор "Magic Show"</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        .top-banner {
+            background: linear-gradient(90deg, #ffcc00, #ff6600);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        header {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #333;
+        }
+        .producer-info {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #666;
+        }
+        .gallery-section {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gallery-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .gallery-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        .gallery-item img {
+            width: 400px;
+            height: auto;
+            border: 4px solid #ffcc00;
+            border-radius: 8px;
+            background-color: white;
+        }
+        .gallery-text {
+            max-width: 500px;
+            font-size: 18px;
+            color: #555;
+        }
+        footer {
+            background-color: #111; /* почти черный */
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-banner">
+    Профессиональный цирковой инвентарь
+</div>
+
+<header>
+    <h1>Цирковой набор "Magic Show"</h1>
+    <div class="producer-info">
+        Производитель: CircusPro (Германия) | Отгрузки: Европа, США, Канада
+    </div>
+</header>
+
+<div class="gallery-section">
+
+    <div class="gallery-item">
+        <img src="https://mimigram.ru/wp-content/uploads/2020/07/chto-takoe-foto.jpg" alt="Фото набора №1">
+        <div class="gallery-text">
+            <h2>Описание №1</h2>
+            <p>Краткое описание первого ракурса циркового набора. Уникальные детали и профессиональное качество.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="https://www.rosphoto.com/images/u/articles/1510/7_5.jpg" alt="Фото набора №2">
+        <div class="gallery-text">
+            <h2>Описание №2</h2>
+            <p>Второй ракурс набора: демонстрация основных элементов. Идеально подходит для шоу и тренировок.</p>
+        </div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="https://photographers.ua/thumbnails/pictures/29237/800x73205img_7960_verysm.jpg" alt="Фото набора №3">
+        <div class="gallery-text">
+            <h2>Описание №3</h2>
+            <p>Третий ракурс: акцент на удобстве и надежности комплекта. Лучший выбор для артистов цирка.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Связаться с нами:</p>
+    <p>Viber | Telegram | Телефон: +49 123 456 7890</p>
+</footer>
+
+</body>
+</html>
